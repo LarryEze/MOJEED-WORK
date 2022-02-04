@@ -10,18 +10,22 @@
   <body>
     <!-- First page -->
     <img src="#" alt="Freshly Dropped logo">
+
     <pre>...Eat Fresh, Explore
        More,....
     </pre>
+    
     <a href="#signup" rel="noopener noreferrer">
       <input type="button" value="Start Exploring">
     </a>
     
     <!-- Second page -->
     <h2 id="signup">Sign up</h2>
+    
     <a href="#" target="_blank" rel="noopener noreferrer">
       <input type="button" value="Sign up with Google">
     </a>
+    
     <form action="#" method="post">
       <label for="name">Name</label><br>
       <input type="text" name="name" id="name">
@@ -34,14 +38,38 @@
       <br>
       <label for="confirmpassword">Confirm Password</label><br>
       <input type="password" name="password" id="confirmpassword">
-      <br><br>
+      <br>
+      <br>
       <input type="checkbox" checked="checked" name="Terms&Condition">Agree to Terms & Condition
+      <br>
       <br>
       <button type="submit">Sign up</button>
     </form>
-    <p>Already have an account? <a href="#" target="_blank" rel="noopener noreferrer">Sign in</a></p>
+    
+    <p>Already have an account? <a href="#signin" rel="noopener noreferrer">Sign in</a></p>
 
     <!-- Third page -->
+    <h2 id="signin">Sign in</h2>
     
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <input type="button" value="Sign in with Google">
+    </a>
+
+    <form action="#" method="post">
+      <label for="email">Email</label><br>
+      <input type="email" name="Email" value="@gmail.com" id="email">
+      <br>
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="password">
+      <br>
+      <br>
+      <button type="submit">Sign in</button>
+    </form>
+      
+    <p>Can't Sign in? <a href="#forgottenpassword" target="_blank" rel="noopener noreferrer">Forgotten Password</a></p>
+    
+    <p>New User? <a href="#signup" rel="noopener noreferrer">Sign up</a></p>
+
+    <!-- Fourth page -->
   </body>
 </html>
